@@ -39,13 +39,9 @@ public class LoginSteps extends BaseSteps {
 
     @When("^I push the Login button$")
     public void iPushTheLoginButton() {
-        loginPage.loginButton.shouldBe(enabled,Duration.ofSeconds(10)); // add 10 sec
+        loginPage.loginButton.shouldBe(enabled, Duration.ofSeconds(10)); // add 10 sec
         loginPage.loginButton.click(); //default selenide wait 4 seconds
     }
 
-    @Then("^I am on the page Inventory$")
-    public void iAmOnThePageInventory() {
-        inventoryPage.inventoryList.shouldBe(visible, Duration.ofSeconds(10));
-    }
 }
 
