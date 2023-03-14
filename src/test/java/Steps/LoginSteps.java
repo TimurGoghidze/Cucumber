@@ -43,5 +43,11 @@ public class LoginSteps extends BaseSteps {
         loginPage.sadMessage.shouldBe(visible,Duration.ofSeconds(3));
         loginPage.sadMessage.shouldHave(text("Epic sadface: Sorry, this user has been locked out."));
     }
+
+    @Then("^Error message$")
+    public void errorMessage() {
+        loginPage.sadMessage.shouldHave(text("Epic sadface: Username and password do not match any user in this service"));
+       // loginPage.sadMessage.shouldHave(partialText(text("Epic sadface"));
+    }
 }
 
