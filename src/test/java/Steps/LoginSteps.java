@@ -1,19 +1,13 @@
-package steps;
+package Steps;
 
 import com.codeborne.selenide.Condition;
-import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
-import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import pages.LoginPage;
-import com.codeborne.selenide.Configuration;
-import io.qameta.allure.selenide.AllureSelenide;
 
 import java.time.Duration;
 
 import static com.codeborne.selenide.Condition.enabled;
-import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.open;
 
 public class LoginSteps extends BaseSteps {

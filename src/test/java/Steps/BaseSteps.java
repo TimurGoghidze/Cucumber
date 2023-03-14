@@ -1,7 +1,7 @@
-package steps;
+package Steps;
 
-import pages.InventoryPage;
-import pages.LoginPage;
+import Pages.InventoryPage;
+import Pages.LoginPage;
 
 public class BaseSteps {
     LoginPage loginPage = new LoginPage();

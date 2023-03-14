@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b4927a4-9b61-4c7b-9972-d157a6c8e24b" name="Changes" comment="correction @Than to All @@ and OK">
+    <list default="true" id="1b4927a4-9b61-4c7b-9972-d157a6c8e24b" name="Changes" comment="one more">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/InventoryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/InventoryPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/RunnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runners/RunnerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/BaseSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/BaseSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/LoginSteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,28 +90,43 @@
       <module name="selenide-cucumber" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="runners.*" />
+          <option name="PATTERN" value="Runners.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="runners" />
-      <option name="MAIN_CLASS_NAME" value="runners.RunnerTest" />
+      <option name="MAIN_CLASS_NAME" value="Runners.RunnerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="runners in selenide-cucumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RunnerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Cucumber" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="Runners.RunnerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Runners in selenide-cucumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenide-cucumber" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="runners.*" />
+          <option name="PATTERN" value="Runners.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="ALTERNATIVE_JRE_PATH" value="17" />
-      <option name="PACKAGE_NAME" value="runners" />
+      <option name="PACKAGE_NAME" value="Runners" />
       <option name="MAIN_CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
@@ -115,15 +136,15 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.Runners in selenide-cucumber" />
       <item itemvalue="JUnit.RunnerTest (1)" />
       <item itemvalue="JUnit.RunnerTest" />
-      <item itemvalue="JUnit.runners in selenide-cucumber" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.RunnerTest (1)" />
         <item itemvalue="JUnit.RunnerTest" />
-        <item itemvalue="JUnit.runners in selenide-cucumber" />
+        <item itemvalue="JUnit.Runners in selenide-cucumber" />
       </list>
     </recent_temporary>
   </component>
@@ -150,13 +171,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678650653846</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="correction class CommonSteps move to steps and also OK">
+      <created>1678652000172</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678652000172</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="correction pom" />
     <MESSAGE value="correction @Than to All @@ and OK" />
-    <option name="LAST_COMMIT_MESSAGE" value="correction @Than to All @@ and OK" />
+    <MESSAGE value="correction class CommonSteps move to steps and also OK" />
+    <option name="LAST_COMMIT_MESSAGE" value="correction class CommonSteps move to steps and also OK" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
