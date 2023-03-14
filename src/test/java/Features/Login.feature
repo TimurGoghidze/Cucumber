@@ -6,3 +6,10 @@ Feature: Login
     And enter "secret_sauce" to password input filed
     When I push the Login button
     Then I am on the page Inventory
+
+  Scenario: Login with locked put user
+    Given I open login page
+    When I enter "locked_out_user" to username input field
+    And enter "secret_sauce" to password input filed
+    When I push the Login button
+    Then Receive a sad message

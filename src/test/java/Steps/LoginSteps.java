@@ -3,11 +3,12 @@ package Steps;
 import com.codeborne.selenide.Condition;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
 import java.time.Duration;
 
-import static com.codeborne.selenide.Condition.enabled;
+import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selenide.open;
 
 public class LoginSteps extends BaseSteps {
@@ -37,5 +38,10 @@ public class LoginSteps extends BaseSteps {
         loginPage.loginButton.click(); //default selenide wait 4 seconds
     }
 
+    @Then("^Receive a sad message$")
+    public void receiveASadMessage() {
+        loginPage.sadMessage.shouldBe(visible,Duration.ofSeconds(3));
+        loginPage.sadMessage.shouldHave(text("Epic sadface: Sorry, this user has been locked out."));
+    }
 }
 
