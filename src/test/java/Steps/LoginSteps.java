@@ -1,6 +1,7 @@
 package Steps;
 
 import com.codeborne.selenide.Condition;
+import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -40,14 +41,25 @@ public class LoginSteps extends BaseSteps {
 
     @Then("^Receive a sad message$")
     public void receiveASadMessage() {
-        loginPage.sadMessage.shouldBe(visible,Duration.ofSeconds(3));
         loginPage.sadMessage.shouldHave(text("Epic sadface: Sorry, this user has been locked out."));
     }
 
     @Then("^Error message$")
     public void errorMessage() {
         loginPage.sadMessage.shouldHave(text("Epic sadface: Username and password do not match any user in this service"));
-       // loginPage.sadMessage.shouldHave(partialText(text("Epic sadface"));
+        // loginPage.sadMessage.shouldHave(partialText(text("Epic sadface"));
+    }
+
+    @Then("^Receive a sad message with text \"([^\"]*)\"$")
+    public void receiveASadMessageWithText(String errorMessageText) {
+        loginPage.sadMessage.shouldHave(text(errorMessageText));
+
+    }
+
+    @When("^I enter \"([^\"]*)\" to userName input field$")
+    public void iEnterToUserNameInputField(String userName)  {
+        loginPage.usernameInputField.shouldBe(Condition.visible, Duration.ofSeconds(10)); // add time
+        loginPage.usernameInputField.setValue(userName);
     }
 }
 
