@@ -4,12 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b4927a4-9b61-4c7b-9972-d157a6c8e24b" name="Changes" comment="add new Scenario +1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/StorePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/StoreSteps.java" afterDir="false" />
+    <list default="true" id="1b4927a4-9b61-4c7b-9972-d157a6c8e24b" name="Changes" comment="add new StorePage">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/SideBar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Features/Purchase.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/LogOutSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/PurchaseStep.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/InventoryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/InventoryPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/StorePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/StorePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/Login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/LoginSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Runners/RunnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runners/RunnerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/BaseSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/BaseSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/StoreSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/StoreSteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +57,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/2 tel run/Inteleger Idea Project/cucumber_40/Cucumber_40/target/generated-test-sources/test-annotations/Steps&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/2 tel run/Inteleger Idea Project/cucumber_40/Cucumber_40/target/generated-test-sources/test-annotations/Steps/Steps/StoreSteps&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
@@ -71,15 +77,15 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.RunnerTest (2)">
-    <configuration name="Scenario: Login with invalid put user" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Add item to the card" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/Login.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/Purchase.feature" />
       <option name="GLUE" value="Steps" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="Cucumber" />
-      <option name="NAME_FILTER" value="^Login with invalid put user$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Login with invalid put user$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Login with invalid put user" />
+      <option name="NAME_FILTER" value="^Add item to the card$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Add item to the card$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Add item to the card" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -131,17 +137,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunnerTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Successful purchase" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/Login.feature" />
+      <option name="GLUE" value="Steps" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="Cucumber" />
+      <option name="NAME_FILTER" value="^Successful purchase$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Successful purchase$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Successful purchase" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="runners.*" />
+          <option name="PATTERN" value="cucumber.api.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="runners" />
-      <option name="MAIN_CLASS_NAME" value="runners.RunnerTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -161,36 +172,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunnerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Cucumber" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Runners.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="runners" />
-      <option name="MAIN_CLASS_NAME" value="Runners.RunnerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Cucumber Java.Scenario: Add item to the card" />
+      <item itemvalue="Cucumber Java.Scenario: Successful purchase" />
       <item itemvalue="Cucumber Java.Scenario: Success login" />
-      <item itemvalue="Cucumber Java.Scenario: Login with invalid put user" />
       <item itemvalue="Cucumber Java.Scenario: Login with locked put user" />
-      <item itemvalue="JUnit.RunnerTest" />
       <item itemvalue="JUnit.RunnerTest (2)" />
-      <item itemvalue="JUnit.RunnerTest (1)" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.RunnerTest (2)" />
+        <item itemvalue="Cucumber Java.Scenario: Add item to the card" />
         <item itemvalue="Cucumber Java.Scenario: Success login" />
+        <item itemvalue="Cucumber Java.Scenario: Successful purchase" />
         <item itemvalue="Cucumber Java.Scenario: Login with locked put user" />
-        <item itemvalue="Cucumber Java.Scenario: Login with invalid put user" />
-        <item itemvalue="JUnit.RunnerTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -245,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678826598298</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add new StorePage">
+      <created>1678834400175</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678834400175</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -255,7 +257,8 @@
     <MESSAGE value="add CommonFile" />
     <MESSAGE value="add new Scenario" />
     <MESSAGE value="add new Scenario +1" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new Scenario +1" />
+    <MESSAGE value="add new StorePage" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new StorePage" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
