@@ -4,18 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b4927a4-9b61-4c7b-9972-d157a6c8e24b" name="Changes" comment="add new StorePage">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/SideBar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Features/Purchase.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/LogOutSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/PurchaseStep.java" afterDir="false" />
+    <list default="true" id="1b4927a4-9b61-4c7b-9972-d157a6c8e24b" name="Changes" comment="add new Test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Pages/InventoryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/InventoryPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/StorePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/StorePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/Login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Runners/RunnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runners/RunnerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/BaseSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/BaseSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/StoreSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/StoreSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Features/Purchase.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/Purchase.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/PurchaseStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/PurchaseStep.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -247,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678834400175</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add new Test">
+      <created>1679006819875</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1679006819875</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -258,7 +258,8 @@
     <MESSAGE value="add new Scenario" />
     <MESSAGE value="add new Scenario +1" />
     <MESSAGE value="add new StorePage" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new StorePage" />
+    <MESSAGE value="add new Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new Test" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

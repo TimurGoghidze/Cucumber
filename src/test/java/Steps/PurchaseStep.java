@@ -3,11 +3,14 @@ package Steps;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import cucumber.api.java.ja.前提;
 
 import java.time.Duration;
 
 import static com.codeborne.selenide.Condition.enabled;
 import static com.codeborne.selenide.Condition.text;
+import static com.codeborne.selenide.Selenide.sleep;
+import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
 public class PurchaseStep extends BaseSteps{
@@ -30,6 +33,16 @@ public class PurchaseStep extends BaseSteps{
     public void cart_icon_with_value_is_displayed(String quantity) {
         sideBar.purchaseInCart.shouldBe(enabled, Duration.ofSeconds(10));
         sideBar.purchaseInCart.shouldHave(text(quantity));
+
+    }
+
+    @And("^I push remote product and check that the cart is empty$")
+    public void iPushRemoteProductAndCheckThatTheCartIsEmpty(String quantity) {
+        inventoryPage.removeButtonBagPack.click();
+        assertFalse(purchaseInCart.get)
+        sideBar.purchaseInCart.shouldNotHave(text(quantity));
+        sleep(3000);
+
 
     }
 }

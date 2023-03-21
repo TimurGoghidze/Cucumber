@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
         features = "src/test/java/features",
         glue ={"Steps"},
       // tags = {"~@success_login"} //это всё кроме этого
-        tags = {"@Purchase_show"}
+        tags = {"@success_logOut"}
 
 
 )

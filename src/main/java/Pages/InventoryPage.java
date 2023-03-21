@@ -25,5 +25,5 @@ public class InventoryPage {
     public SelenideElement messageCheckoutComplete = $(byClassName("complete-header"));
 
     public SelenideElement menuButton =  $(byId("react-burger-menu-btn"));
-
+    public SelenideElement removeButtonBagPack =  $(byId("remove-sauce-labs-backpack"));
 }

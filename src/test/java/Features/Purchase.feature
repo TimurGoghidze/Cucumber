@@ -6,4 +6,4 @@ Feature: Purchase
     And open side bar and push Reset App state
     When I add first product to cart
     Then cart icon with value "1" is displayed
-    And I push remote product and
+    And I push remote product and check that the cart is empty
