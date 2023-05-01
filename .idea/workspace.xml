@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b4927a4-9b61-4c7b-9972-d157a6c8e24b" name="Changes" comment="add new Test">
+    <list default="true" id="1b4927a4-9b61-4c7b-9972-d157a6c8e24b" name="Changes" comment="add new Test repair">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/StorePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/StorePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Runners/RunnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runners/RunnerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/PurchaseStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/PurchaseStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/LoginSteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,10 +30,10 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
     </option>
   </component>
   <component name="ProjectId" id="2MhX1TWAOlGUwlIKnYLHS8XFPCL" />
@@ -49,6 +50,8 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.preview.features.used&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/2 tel run/Inteleger Idea Project/cucumber_40/Cucumber_40/target/generated-test-sources/test-annotations/Steps/Steps/StoreSteps&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
@@ -253,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679422200605</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add new Test repair">
+      <created>1679423526026</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1679423526026</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -265,7 +275,8 @@
     <MESSAGE value="add new Scenario +1" />
     <MESSAGE value="add new StorePage" />
     <MESSAGE value="add new Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new Test" />
+    <MESSAGE value="add new Test repair" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new Test repair" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

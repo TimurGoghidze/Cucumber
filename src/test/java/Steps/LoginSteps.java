@@ -61,5 +61,9 @@ public class LoginSteps extends BaseSteps {
         loginPage.usernameInputField.shouldBe(Condition.visible, Duration.ofSeconds(10)); // add time
         loginPage.usernameInputField.setValue(userName);
     }
+    @Then("^I am on the page Inventory$")
+    public void iAmOnThePageInventory() {
+        inventoryPage.inventoryList.shouldBe(visible, Duration.ofSeconds(10));
+    }
 }
 
